@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Component {...pageProps} />
+      <Component {...pageProps} />    
     </ThemeProvider>
   );
 }
